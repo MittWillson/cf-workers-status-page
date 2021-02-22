@@ -1,5 +1,5 @@
 settings:
-  title: 'Are My services alright?'
+  title: 'Are My care for is alright?'
   url: 'https://status.mitt.fun' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
@@ -18,6 +18,11 @@ monitors:
   - id: blog-mitt-fun
     name: Mitt's Blog
     url: 'https://blog.mitt.fun/'
+    method: GET
+    expectStatus: 200
+  - id: blog-edison-do
+    name: Edison's Blog
+    url: 'https://edison.do/'
     method: GET
     expectStatus: 200
     
