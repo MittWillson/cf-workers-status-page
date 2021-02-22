@@ -22,14 +22,14 @@ monitors:
     expectStatus: 200
     
   - id: workers-friends # unique identifier
-    name: friends.mitt.fun
+    name: Mitt's Friends redirector
     url: 'https://friends.mitt.fun/mitt' # URL to fetch
     method: GET # default=GET
     expectStatus: 302 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
 
   - id: pwecho-com
-    name: echo platform
+    name: ECHO Platform
     description: 'for co-game serve platform.'
     url: 'https://pwecho.com'
     method: HEAD
