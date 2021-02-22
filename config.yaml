@@ -17,17 +17,20 @@ settings:
 monitors:
   - id: blog-mitt-fun
     name: Mitt's Blog
+    description: 'Blog of mine'
     url: 'https://blog.mitt.fun/'
     method: GET
     expectStatus: 200
   - id: blog-edison-do
     name: Edison's Blog
+    description: "Blog of a friend I care about"
     url: 'https://edison.do/'
     method: GET
     expectStatus: 200
     
   - id: workers-friends # unique identifier
     name: Mitt's Friends redirector
+    description: "You can easy visit `https://friends.mitt.fun/{friendName}` or `https://{bestFriendName}.mitt.fun` to redirect to"
     url: 'https://friends.mitt.fun/mitt' # URL to fetch
     method: GET # default=GET
     expectStatus: 302 # operational status, default=200
@@ -35,7 +38,7 @@ monitors:
 
   - id: pwecho-com
     name: ECHO Platform
-    description: 'for co-game serve platform.'
+    description: 'CO-GAME Serve Platform of one of my works.'
     url: 'https://pwecho.com'
     method: HEAD
     expectStatus: 200
