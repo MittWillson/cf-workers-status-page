@@ -1,5 +1,5 @@
 settings:
-  title: 'Status Page'
+  title: 'Are My services alright?'
   url: 'https://status.mitt.fun' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
@@ -23,7 +23,6 @@ monitors:
     
   - id: workers-friends # unique identifier
     name: friends.mitt.fun
-    description: 'You write code. They handle the rest.' # default=empty
     url: 'https://friends.mitt.fun/mitt' # URL to fetch
     method: GET # default=GET
     expectStatus: 302 # operational status, default=200
@@ -31,7 +30,7 @@ monitors:
 
   - id: pwecho-com
     name: echo platform
-    description: 'for co-game service platform.'
+    description: 'for co-game serve platform.'
     url: 'https://pwecho.com'
     method: HEAD
     expectStatus: 200
