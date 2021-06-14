@@ -21,6 +21,7 @@ monitors:
     url: 'https://blog.mitt.fun/'
     method: GET
     expectStatus: 200
+    
   - id: blog-edison-do
     name: Edison's Blog
     description: "Blog of a friend I care about"
