@@ -21,14 +21,7 @@ monitors:
     url: 'https://blog.mitt.fun/'
     method: GET
     expectStatus: 200
-    
-  - id: blog-edison-do
-    name: Edison's Blog
-    description: "Blog of a friend I care about"
-    url: 'https://edison.do/'
-    method: GET
-    expectStatus: 200
-    
+   
   - id: workers-friends # unique identifier
     name: Mitt's Friends redirector
     description: "You can easy visit `https://friends.mitt.fun/{friendName}` or `https://{bestFriendName}.mitt.fun` to redirect to"
